@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 const app = express();
 
 const uri =
-  "mongodb+srv://sharduli8090:shardulisp8090@mycluster.eprnomb.mongodb.net/MyCollection?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@mycluster.eprnomb.mongodb.net/<Collectionname>?retryWrites=true&w=majority";
 
 const connectDB = async()=> {
   try {
